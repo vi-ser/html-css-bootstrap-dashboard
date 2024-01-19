@@ -4,7 +4,7 @@
 }
 
 .sidebar {
-    width: 150px;
+    width: 68px;
     height: calc(100vh - 72px);
 
     background-color: #051E34;
@@ -12,6 +12,19 @@
 }
 
 .my_container-size {
-    width: calc(100% - 150px);
+    width: calc(100% - 68px);
     height: calc(100vh - 72px);
+}
+
+/* media queries */
+/* large */
+@media screen and (min-width: 992px) {
+    .sidebar {
+        width: 150px;
+    }
+
+    .my_container-size {
+        width: calc(100% - 150px);
+    }
+
 }
