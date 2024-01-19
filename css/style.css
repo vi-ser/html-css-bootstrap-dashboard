@@ -5,14 +5,13 @@
 
 .sidebar {
     width: 150px;
+    height: calc(100vh - 72px);
+
     background-color: #051E34;
     background-image: url('/img/sidebar-bg.png');
 }
 
 .my_container-size {
     width: calc(100% - 150px);
-}
-
-.my_mt-72 {
-    margin-top: 72px;
+    height: calc(100vh - 72px);
 }
