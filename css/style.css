@@ -1,0 +1,18 @@
+.test {
+    padding: 20px;
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+.sidebar {
+    width: 150px;
+    background-color: #051E34;
+    background-image: url('/img/sidebar-bg.png');
+}
+
+.my_container-size {
+    width: calc(100% - 150px);
+}
+
+.my_mt-72 {
+    margin-top: 72px;
+}
