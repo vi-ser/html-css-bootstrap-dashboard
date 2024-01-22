@@ -3,6 +3,10 @@
     background-color: rgba(0, 0, 255, 0.2);
 }
 
+.my_bg-darkblue {
+    background-color: #165BBA;
+}
+
 aside {
     width: 68px;
     height: calc(100vh - 72px);
@@ -33,11 +37,9 @@ aside {
     height: 30px;
 }
 
-
 .my_font-small {
     font-size: 14px;
 }
-
 
 .my_font-extrasmall {
     font-size: 11px;
@@ -47,6 +49,14 @@ aside {
 .fa-trash {
     width: 30px;
     height: 30px;
+}
+
+#title span {
+    height: 24.5px;
+}
+
+#breadcrumbs-dividers ol.breadcrumb li+li:before {
+    color: white;
 }
 
 /* media queries */
