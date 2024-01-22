@@ -156,10 +156,24 @@
                     </span>
                 </div>
                 <div class="col-12 col-md-4 col-lg-3 order-0 order-md-2 mb-3">
-                    <div id="new-student" class="d-flex gap-2 align-items-center">
+                    <div id="new-student" class="d-flex gap-3 align-items-center justify-content-md-center ">
                         <span>Nuovo Studente</span>
-                        <i
-                            class="fa-solid fa-plus d-flex align-items-center justify-content-center border rounded-2 flex-shrink-0"></i>
+                        <i class="fa-solid fa-plus d-flex align-items-center justify-content-center border rounded-2 flex-shrink-0"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                            aria-controls="offcanvasRight"></i>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                            aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                ...
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

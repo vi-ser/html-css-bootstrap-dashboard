@@ -51,6 +51,11 @@ aside {
     width: 40px;
 }
 
+.fa-plus:hover {
+    color: black;
+    background-color: white;
+}
+
 
 .fa-code {
     background-color: #F26551;
@@ -79,6 +84,11 @@ aside {
 #breadcrumbs-dividers ol.breadcrumb li+li:before {
     color: white;
 }
+
+.accordion-button:not(.collapsed) {
+    color: #1B72E8;
+}
+
 
 /* media queries */
 /* large */
