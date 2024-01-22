@@ -16,6 +16,10 @@ aside {
     height: calc(100vh - 72px);
 }
 
+.fa-search {
+    height: 40px;
+}
+
 .fa-code {
     background-color: #F26551;
     width: 30px;
