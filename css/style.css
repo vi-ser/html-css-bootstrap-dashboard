@@ -3,6 +3,15 @@
     background-color: rgba(0, 0, 255, 0.2);
 }
 
+nav .btn:active,
+nav .btn:focus {
+    border-color: transparent !important;
+}
+
+nav .form-control:focus {
+    box-shadow: 0 0 0 0 !important;
+}
+
 .my_bg-darkblue {
     background-color: #165BBA;
 }
@@ -20,6 +29,11 @@ aside {
 .fa-signal,
 .fa-gear {
     width: 20px;
+}
+
+.sidebar-element:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
 }
 
 
