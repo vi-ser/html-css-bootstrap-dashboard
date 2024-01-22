@@ -3,7 +3,7 @@
     background-color: rgba(0, 0, 255, 0.2);
 }
 
-.sidebar {
+aside {
     width: 68px;
     height: calc(100vh - 72px);
 
@@ -16,10 +16,32 @@
     height: calc(100vh - 72px);
 }
 
+.fa-code {
+    background-color: #F26551;
+    width: 30px;
+    height: 30px;
+}
+
+
+.my_font-small {
+    font-size: 14px;
+}
+
+
+.my_font-extrasmall {
+    font-size: 11px;
+}
+
+.fa-pencil,
+.fa-trash {
+    width: 30px;
+    height: 30px;
+}
+
 /* media queries */
 /* large */
 @media screen and (min-width: 992px) {
-    .sidebar {
+    aside {
         width: 150px;
     }
 
