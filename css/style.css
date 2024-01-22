@@ -22,6 +22,7 @@ aside {
     width: 20px;
 }
 
+
 .my_container-size {
     width: calc(100% - 68px);
     height: calc(100vh - 72px);
@@ -30,6 +31,12 @@ aside {
 .fa-search {
     height: 40px;
 }
+
+.fa-plus {
+    height: 40px;
+    width: 40px;
+}
+
 
 .fa-code {
     background-color: #F26551;
