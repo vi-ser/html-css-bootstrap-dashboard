@@ -11,6 +11,13 @@ aside {
     background-image: url('/img/sidebar-bg.png');
 }
 
+.fa-house,
+.fa-chart-simple,
+.fa-signal,
+.fa-gear {
+    width: 20px;
+}
+
 .my_container-size {
     width: calc(100% - 68px);
     height: calc(100vh - 72px);
