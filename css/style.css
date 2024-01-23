@@ -54,6 +54,7 @@ aside {
 .fa-plus:hover {
     color: black;
     background-color: white;
+    cursor: pointer;
 }
 
 
