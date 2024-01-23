@@ -90,8 +90,12 @@ aside {
     color: #1B72E8;
 }
 
+.custom-offcanvas {
+    width: 100% !important;
+}
 
 /* media queries */
+
 /* large */
 @media screen and (min-width: 992px) {
     aside {
@@ -100,6 +104,10 @@ aside {
 
     .my_container-size {
         width: calc(100% - 150px);
+    }
+
+    .custom-offcanvas {
+        width: 60% !important;
     }
 
 }
